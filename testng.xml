@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="cia.test.MessageAfterFeedSubmission"/>
+      <class name="com.cia.qa.approvalflowtests.Approvall1"/>
+      <class name="com.cia.qa.approvalflowtests.LegalApproval"/>
+      <class name="com.cia.qa.approvalflowtests.L2Approval"/>
+      <class name="com.cia.qa.approvalflowtests.L3approval"/>
+      <class name="com.cia.qa.approvalflowtests.L4approval"/> 
+      <class name="com.cia.qa.approvalflowtests.L5approval"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
